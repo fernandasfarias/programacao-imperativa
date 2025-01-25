@@ -1,12 +1,12 @@
 #include <stdio.h>
 
 int main(void){
-    int cv, ce, cs, fv, fe, fs, pontos_c, pontos_f;
+    int cv, ce, cs, fv, fe, fs;
 
     scanf("%d %d %d %d %d %d",&cv, &ce, &cs, &fv, &fe, &fs);
 
-    pontos_c = cv*3 + ce;
-    pontos_f = fv*3 + fe;
+    int pontos_c = cv*3 + ce;
+    int pontos_f = fv*3 + fe;
 
     if  (pontos_c > pontos_f){
         printf("C\n");
@@ -28,4 +28,6 @@ int main(void){
     else{
         printf("=\n");
     }
+
+    return 0;
 }
