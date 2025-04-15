@@ -18,12 +18,8 @@ int main(){
     
     // outras áreas
     else {
-        if (justificativa == 'S'){
-            if ((tipo == 'c' || tipo == 'm') && horas >= 12) printf("ACEITA\n");
-            else if ((tipo == 's' || tipo == 'p') && horas >= 1)  printf("ACEITA\n");
-            else printf("REJEITADA\n");
-        }
-
+        if ((tipo == 'c' || tipo == 'm') && horas >= 12 && justificativa == 'S') printf("ACEITA\n");
+        else if ((tipo == 's' || tipo == 'p') && horas >= 1 && justificativa == 'S')  printf("ACEITA\n");
         else printf("REJEITADA\n");
     }
     return 0;

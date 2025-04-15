@@ -4,7 +4,7 @@ int main(){
     char filme1, filme2, gen1, gen2, gen3, gen4, gen5, gen6;
     int nota1, nota2, nota3, nota4, nota5, nota6, pes1, pes2, pes3, cont1 = 0, cont2 = 0;
 
-     scanf("%c%*c", &filme1);  // Lê o nome do filme1
+    scanf("%*s%*c%*c", &filme1);  // Lê o nome do filme1
     scanf("%c%*s %d%*c", &gen1, &nota1);  // Lê o gênero e nota do filme1
     scanf("%c%*s %d%*c", &gen2, &nota2);  // Lê o gênero e nota do filme2
     scanf("%c%*s %d%*c", &gen3, &nota3);  // Lê o gênero e nota do filme3
